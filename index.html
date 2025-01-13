@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Literasi - Selamat Datang!</title>
+
+    <!-- Link Font dari Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
+
+    <!--  My Style  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #f8f8f8;
+        color: #333;
+      }
+
+      header {
+        background-color: #292b2c;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 2em;
+        letter-spacing: 2px;
+      }
+
+      nav {
+        margin-top: 20px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+
+      nav li {
+        margin: 0 15px;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        font-size: 1.2em;
+        transition: color 0.3s;
+      }
+
+      nav a:hover {
+        color: #e44d26;
+      }
+
+      #hero {
+        text-align: center;
+        padding: 50px 0;
+        background-color: #e44d26;
+        color: #fff;
+      }
+
+      #menu h2 {
+        text-align: center;
+        font-size: 2em;
+        margin-bottom: 30px;
+        color: #e44d26;
+      }
+
+      .menu-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+
+      .menu-item {
+        text-align: center;
+        padding: 20px;
+        margin: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+      }
+
+      .menu-item:hover {
+        transform: scale(1.05);
+      }
+
+      .menu-item img {
+        max-width: 100%;
+        border-radius: 8px;
+        margin-bottom: 15px;
+      }
+
+      .menu-item h3 {
+        margin: 10px 0;
+        font-size: 1.5em;
+        color: #333;
+      }
+
+      .menu-item p {
+        color: #777;
+        margin-bottom: 15px;
+      }
+
+      .buy-button {
+        background-color: #fff;
+        color: #e44d26;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1em;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s;
+      }
+
+      .buy-button:hover {
+        background-color: #e44d26;
+        color: #fff;
+      }
+
+      #about,
+      #contact {
+        background-color: #fff;
+        padding: 50px 0;
+        text-align: center;
+      }
+
+      #about h2,
+      #contact h2 {
+        font-size: 2em;
+        margin-bottom: 30px;
+        color: #e44d26;
+      }
+
+      footer {
+        background-color: #292b2c;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+      }
+
+      footer p {
+        margin: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Coffee Literasi</h1>
+      <nav>
+        <ul>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">Tentang Kami</a></li>
+          <li><a href="#contact">Hubungi Kami</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="hero">
+      <h2>Selamat Datang di Coffee Literasi</h2>
+      <p>Nikmati Pengalaman Kopi Berkualitas Tinggi Bersama Kami</p>
+    </section>
+
+    <section id="menu">
+      <h2>Menu Kami</h2>
+      <div class="menu-container">
+        <div class="menu-item">
+          <img src="coffee_special.jpg" alt="Kopi Spesial" />
+          <h3>Kopi Spesial</h3>
+          <p>Kopi pilihan dari berbagai daerah dengan rasa unik.</p>
+          <button class="buy-button">Beli Sekarang</button>
+        </div>
+
+        <div class="menu-item">
+          <img src="cappuccino.jpg" alt="Cappuccino" />
+          <h3>Cappuccino</h3>
+          <p>
+            Minuman klasik dengan perpaduan sempurna antara espresso, susu, dan
+            busa.
+          </p>
+          <button class="buy-button">Beli Sekarang</button>
+        </div>
+
+        <div class="menu-item">
+          <img src="matcha_latte.jpg" alt="Matcha Latte" />
+          <h3>Matcha Latte</h3>
+          <p>Minuman lezat dengan campuran matcha dan susu.</p>
+          <button class="buy-button">Beli Sekarang</button>
+        </div>
+
+        <div class="menu-item">
+        <img src="kopi_tubruk.jpg" alt="Kopi Tubruk " />
+        <h3>Kopi Tubruk</h3>
+        <p>Kehangatan pahit yang memikat.</p>
+        <button class="buy-button">Beli Sekarang</button>
+      </div>
+       <!-- menu tambahan -->
+       <div>
+        
+       </div>
+       <div></div>
+       <div></div>
+       <div></div>
+    </section>
+
+    <section id="about">
+      <h2>Tentang Kami</h2>
+      <p>
+        Menyajikan kopi berkualitas tinggi dari biji kopi pilihan, dengan
+        perhatian khusus pada proses roasting dan penyajian.<br />
+        Memberikan pelayanan ramah dan berorientasi pada pelanggan, menciptakan
+        lingkungan yang hangat dan nyaman.<br />
+        Mendorong keberlanjutan dengan mendukung petani kopi berkelanjutan dan
+        menggunakan bahan kemasan ramah lingkungan.<br />
+      </p>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Hubungi Kami</h2>
+        <p>
+          Jika Anda memiliki pertanyaan atau ingin reservasi, silakan hubungi
+          kami melalui formulir atau melalui kontak di bawah ini:
+        </p>
+        <ul>
+          <li>Email: info@coffeeliterasi.com</li>
+          <li>Telepon: +62 116 530 776</li>
+          <li>
+            Alamat: Jl. Sampul No 48, Sei Putih Bar, Kec.Medan Petisah, Kota
+            Medan Sumatra Utara
+          </li>
+        </ul>
+
+        <form action="#" method="post">
+          <label for="name">Nama:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Pesan:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit" class="submit-button">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
